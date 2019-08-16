@@ -26,13 +26,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    Answer:
+            React is a library used to build user interfaces for web applications. It is built in components that re-render individually when data is updated. It was built to be agnostic regarding the way the rest of the application is designed/built.
+
 - [ ] What does it mean to _think_ in react?
+
+    Answer:
+            React is made up of components and that is how one should approach building projects.
 
 - [ ] Describe state.
 
+    Answer:
+            State is an object that holds and updates data for an individual component.
+
 - [ ] Describe props.
 
+    Answer:
+            Props pass information from 'state' to the component
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    Answer:
+            A 'side effect' is anything that impacts something outside of a particular function. The useEffect hook can manage when and how functions run, state is changed, and props/data are updated.
 
 ## Project Set Up
 
